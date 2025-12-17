@@ -56,6 +56,7 @@ sudo apt install -y \
 ##  Installation
 
 ### 1. Clone the Repository
+This command creates a new folder called `ws_ddmobile` in your home directory and clones the repository into it:
 ```bash
 cd ~
 git clone https://github.com/1sznkaveesh/D455-Camera-Integration-ROS2.git ws_ddmobile
