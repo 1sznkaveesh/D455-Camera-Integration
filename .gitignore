@@ -1,0 +1,45 @@
+# ROS2 Workspace - Git Ignore File
+
+# Build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Gazebo
+.gazebo/
+
+# ROS
+*.bag
+*.db3
+
+# Temporary files
+tmp_*
+*.tmp
+*.bak
+*.orig
+
+# Documentation build
+doc/build/
+doc/_build/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# System files
+Thumbs.db
